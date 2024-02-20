@@ -179,3 +179,83 @@ a {
 }
 
 /* ********** TASK 5 ************ */
+.widget {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.description-bg-color {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.change-color {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin: 0 auto;
+}
+
+/* ********** TASK 6 ************ */
+
+.form {
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  background-color: #f6f6fe;
+  margin-bottom: 16px;
+}
+
+.number-element {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 72px;
+  width: 150px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.create-btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  background-color: #4e75ff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.destroy-btn {
+  background-color: #ff4e4e;
+}
+
+.element-box {
+  background-color: #f6f6fe;
+  border-radius: 8px;
+  padding: 32px;
+  max-width: 486px;
+  min-height: 160px;
+  display: flex;
+  flex-wrap: wrap;
+}
