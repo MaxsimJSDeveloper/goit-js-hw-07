@@ -34,8 +34,4 @@ const markup = images
   )
   .join('');
 
-// Check the console, you'll see a single string with HTML tags
-console.log(markup);
-
-// Adding all the markup in one operation
-gallery.innerHTML = markup;
+gallery.insertAdjacentHTML('beforeend', markup);

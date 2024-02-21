@@ -211,7 +211,6 @@ a {
 }
 
 /* ********** TASK 6 ************ */
-
 .form {
   border-radius: 8px;
   padding: 32px;
@@ -223,7 +222,7 @@ a {
 .number-element {
   border: 1px solid #808080;
   border-radius: 8px;
-  padding: 8px 72px;
+  padding: 8px;
   width: 150px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -233,7 +232,7 @@ a {
   color: #2e2f42;
 }
 
-.create-btn {
+.btn {
   border-radius: 8px;
   padding: 8px 16px;
   width: 120px;
@@ -250,12 +249,9 @@ a {
   background-color: #ff4e4e;
 }
 
-.element-box {
-  background-color: #f6f6fe;
-  border-radius: 8px;
-  padding: 32px;
-  max-width: 486px;
-  min-height: 160px;
+.box-size {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  margin-top: 30px;
 }
