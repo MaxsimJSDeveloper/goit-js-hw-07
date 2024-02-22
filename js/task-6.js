@@ -1,3 +1,4 @@
+'use strict';
 const controls = document.getElementById('controls');
 const inputNumberEl = document.querySelector('[type="number"]');
 const createBtnEl = document.querySelector('button[data-create]');

@@ -1,3 +1,4 @@
+'use strict';
 const button = document.querySelector('.change-color');
 const body = document.querySelector('body');
 
