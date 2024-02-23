@@ -4,13 +4,15 @@
 
 body {
   margin: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
-  color: #212121;
   line-height: 1.5;
+  color: #2e2f42;
+  letter-spacing: 0.04em;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 nav {
@@ -69,12 +71,9 @@ a {
 }
 
 .title-list {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 1.33333;
-  letter-spacing: 0.04em;
-  color: #2e2f42;
   padding-top: 16px;
   margin-bottom: 16px;
   padding-left: 16px;
@@ -92,12 +91,6 @@ a {
 .item-of-list {
   border: 1px solid #696a81;
   border-radius: 4px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #2e2f42;
   padding-left: 16px;
   width: 360px;
   height: 40px;
@@ -115,6 +108,7 @@ a {
 
 .img-list-item {
   display: flex;
+  object-fit: cover;
 }
 
 /* ********** TASK 3 ************ */
@@ -124,33 +118,17 @@ a {
   padding-left: 16px;
   border: 1px solid #696a81;
   border-radius: 4px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #2e2f42;
   margin-bottom: 16px;
 }
 
 .greetengs {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 1.33333;
-  letter-spacing: 0.04em;
-  color: #2e2f42;
 }
 
 /* ********** TASK 4 ************ */
-
 .login-form-label {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #2e2f42;
   display: flex;
   flex-direction: column;
 }
@@ -169,11 +147,7 @@ a {
   width: 86px;
   height: 40px;
   background: #4e75ff;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
   color: #fff;
   margin-top: 8px;
 }
@@ -186,26 +160,13 @@ a {
   flex-direction: column;
 }
 
-.description-bg-color {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #2e2f42;
-}
-
 .change-color {
   border-radius: 8px;
   padding: 8px 16px;
   width: 148px;
   height: 40px;
   background-color: #4e75ff;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
   color: #fff;
   margin: 0 auto;
 }
@@ -224,12 +185,6 @@ a {
   border-radius: 8px;
   padding: 8px;
   width: 150px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #2e2f42;
 }
 
 .btn {
@@ -237,11 +192,7 @@ a {
   padding: 8px 16px;
   width: 120px;
   background-color: #4e75ff;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
   color: #fff;
 }
 
