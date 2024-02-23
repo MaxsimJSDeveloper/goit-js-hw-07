@@ -1,9 +1,9 @@
 'use strict';
-const controls = document.getElementById('controls');
+const controls = document.querySelector('#controls');
 const inputNumberEl = document.querySelector('[type="number"]');
 const createBtnEl = document.querySelector('button[data-create]');
 const destroyBtnEl = document.querySelector('button[data-destroy]');
-const divBoxesEl = document.getElementById('boxes');
+const divBoxesEl = document.querySelector('#boxes');
 
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
